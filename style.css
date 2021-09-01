@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+.grid {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 400px;
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url("img/background2.jpg");
+  border-radius: 20px;
+  border-color: white;
+  margin: auto;
+}
+
+.grid div {
+  height: 50px;
+  width: 50px;
+}
+
+.player {
+  background-image: url("img/Ship6.png");
+  background-size: contain;
+  
+}
+
+.meteroid {
+  background-image: url("img/plan.png");
+  background-size: contain;
+}
+
+.badAsteroid {
+  background-image: url("img/enemy.png");
+  background-size: contain;
+}
+
+/* .floor {
+    background-color: lightblue;
+} */
+
+h1, h3 {
+  color: white;
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  margin: 1em;
+  padding: 0.5em 0.5em;
+  cursor: pointer;
+}
